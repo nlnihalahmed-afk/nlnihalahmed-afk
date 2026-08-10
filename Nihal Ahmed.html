@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihal Ahmed - Profile</title>
+    <!-- Font Awesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            width: 100%;
+            max-width: 650px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #74ebd5;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 24px;
+            color: #222;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-top: 2px;
+        }
+        .section-title {
+            border-bottom: 2px solid #74ebd5;
+            padding-bottom: 5px;
+            margin: 25px 0 15px 0;
+            color: #2c3e50;
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .info-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 14px;
+        }
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .info-item i {
+            color: #74ebd5;
+            width: 20px;
+            text-align: center;
+        }
+        .label {
+            font-weight: 600;
+            color: #555;
+            min-width: 120px;
+        }
+        .value {
+            color: #222;
+        }
+        .links-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .link-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 12px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        .link-item:hover {
+            background: #eef2f5;
+        }
+        .link-item i {
+            width: 25px;
+            font-size: 16px;
+            color: #74ebd5;
+        }
+        .link-item .platform {
+            font-weight: 600;
+            width: 110px;
+            color: #444;
+        }
+        .link-item .username {
+            color: #555;
+            min-width: 150px;
+            font-weight: 500;
+        }
+        .link-item a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: auto;
+        }
+        .link-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile-header">
+        <img src="NIHAL.jpg" alt="Nihal Ahmed" class="profile-img">
+        <h1>Nihal Ahmed</h1>
+        <div class="subtitle">Student</div>
+    </div>
+
+    <!-- Personal Information -->
+    <div class="section-title">
+        <i class="fa-solid fa-user"></i> Personal Information
+    </div>
+    <div class="info-list">
+        <div class="info-item"><i class="fa-solid fa-id-card"></i><span class="label">Name:</span> <span class="value">Nihal Ahmed</span></div>
+        <div class="info-item"><i class="fa-solid fa-droplet"></i><span class="label">Blood Group:</span> ​<span style="color: red; font-weight: bold;">O+</span></div>
+        <div class="info-item"><i class="fa-solid fa-location-dot"></i><span class="label">Address:</span> <span class="value">Nasar Tower(3rd floor), Andermanik Road, Shafipur, Kaliakoir, Gazipur</span></div>
+        <div class="info-item"><i class="fa-solid fa-phone"></i><span class="label">Mobile 1:</span> <span class="value">01615-827949</span></div>
+        <div class="info-item"><i class="fa-solid fa-phone-flip"></i><span class="label">Mobile 2:</span> <span class="value">01516-574037</span></div>
+        <div class="info-item"><i class="fa-solid fa-user-tie"></i><span class="label">Father's Name:</span> <span class="value">Nasar Ahmed</span></div>
+        <div class="info-item"><i class="fa-solid fa-user-nurse"></i><span class="label">Mother's Name:</span> <span class="value">Moriom Akter</span></div>
+        <div class="info-item"><i class="fa-solid fa-cake-candles"></i><span class="label">Date of Birth:</span> <span class="value">20th Nov 2006</span></div>
+        <div class="info-item"><i class="fa-solid fa-hands-praying"></i><span class="label">Religion:</span> <span class="value">Islam</span></div>
+        <div class="info-item"><i class="fa-solid fa-flag"></i><span class="label">Nationality:</span> <span class="value">Bangladeshi</span></div>
+        <div class="info-item"><i class="fa-solid fa-briefcase"></i><span class="label">Profession:</span> <span class="value">Student</span></div>
+        <div class="info-item"><i class="fa-solid fa-graduation-cap"></i><span class="label">Institution:</span> <span class="value">MEH Arif College</span></div>
+        <div class="info-item"><i class="fa-solid fa-heart"></i><span class="label">Hobby:</span> <span class="value">Riding, Playing</span></div>
+    </div>
+
+    <!-- Social Information -->
+    <div class="section-title">
+        <i class="fa-solid fa-share-nodes"></i> Social Information
+    </div>
+    <div class="links-list">
+        <div class="link-item"><i class="fa-brands fa-whatsapp"></i><span class="platform">WhatsApp:</span><span class="username">01615827949</span> <a href="https://wa.me/[+8801615827949]" target="_blank">Click Here</a></div>
+        <div class="link-item"><i class="fa-brands fa-facebook"></i><span class="platform">Facebook:</span><span class="username">Nihal Ahmed</span> <a href="https://m.facebook.com/nl.nihal.ahmed/" target="_blank">Click Here</a></div>
+        <div class="link-item"><i class="fa-brands fa-instagram"></i><span class="platform">Instagram:</span><span class="username">nl_nihal_36o</span> <a href="https://www.instagram.com/nl_nihal_36o?igsh=OWVuMGt2ZjZ2c3Zp" target="_blank">Click Here</a></div>
+        <div class="link-item"><i class="fa-brands fa-telegram"></i><span class="platform">Telegram:</span><span class="username">01615827949</span> <a href="https://t.me/nlnihal" target="_blank">Click Here</a></div>
+        <div class="link-item"><i class="fa-brands fa-tiktok"></i><span class="platform">TikTok:</span><span class="username">@nihal.ahmed716</span> <a href="https://tiktok.com/@nihal.ahmed716" target="_blank">Click Here</a></div>
+        <div class="link-item"><i class="fa-brands fa-twitter"></i><span class="platform">Twitter:</span><span class="username">@NlNihalahmed</span> <a href="https://x.com/NlNihalahmed" target="_blank">Click Here</a></div>
+        <div class="link-item"><i class="fa-solid fa-envelope"></i><span class="platform">Email:</span><span class="username">nl.nihalahmed@gmail.com</span> <a href="mailto:nl.nihalahmed@gmail.com" target="_blank">Click Here</a></div>
+        <div class="link-item"><i class="fa-brands fa-snapchat"></i><span class="platform">Snapchat:</span><span class="username">@nihalahmed24741</span> <a href="https://www.snapchat.com/add/nihalahmed24741?share_id=Thk8MrJIekQ&locale=en-GB" target="_blank">Click Here</a></div>
+        <div class="link-item"><i class="fa-brands fa-youtube"></i><span class="platform">YouTube:</span><span class="username">@NihalAhmed-k5y</span> <a href="https://youtube.com/@nihalahmed-k5y" target="_blank">Click Here</a></div>
+    </div>
+
+    <!-- Drive Files -->
+    <div class="section-title">
+        <i class="fa-solid fa-cloud"></i> Drive Files
+    </div>
+    <div class="links-list">
+        <div class="link-item"><i class="fa-solid fa-file-pdf"></i><span class="platform">College File:</span><span class="username">MEH Arif College</span> <a href="https://drive.google.com/drive/folders/188qADgemURcfly0WMmXnwqKaI9buH69O" target="_blank">Click Here</a></div>
+        <div class="link-item"><i class="fa-solid fa-folder-open"></i><span class="platform">Personal File:</span><span class="username">Personal info drive</span> <a href="https://drive.google.com/drive/folders/1xoAxSDSc1iaY_OCKrUVRmg-IZt5MRNWq" target="_blank">Click Here</a></div>
+    </div>
+</div>
+
+</body>
+</html>
